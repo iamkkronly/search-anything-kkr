@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Directory Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Open Directory Search</h1>
+    <p>Get direct download links for almost anything.</p>
+
+    <div class="search-container">
+        <select id="filetype">
+            <option value="">Choose Filetype</option>
+            <option value="TV/Movies/Video">TV/Movies/Video</option>
+            <option value="Books">Books</option>
+            <option value="Music">Music</option>
+            <option value="Software/ISO/DMG/Games">Software/ISO/DMG/Games</option>
+            <option value="Images">Images</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <input type="text" id="search-query" placeholder="Search anything...">
+        <button onclick="searchGoogle()">Search</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
